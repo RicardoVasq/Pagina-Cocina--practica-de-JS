@@ -1,0 +1,94 @@
+.ml-auto{
+     margin-left: 80%;
+}
+
+.contenedor-nav{
+     background-color: rgb(44, 43, 43);
+}
+.item-footer{
+     text-decoration: none;
+     color: white;
+}
+
+.contenedor-footer{
+     background-color: rgb(44, 43, 43);
+     color: white;
+}
+.info-footer{
+     padding: 15px;
+     padding-bottom: 0;
+}
+
+
+.derechos_reservados{
+     padding: 0;
+}
+
+/* Pagina Recetas*/
+
+.sidebar a{
+     color: black;
+     text-decoration: none;
+}
+
+.sidebar{
+     border-right: solid 1px black;
+     text-decoration: none;
+}
+
+.contendor-recetas h4{
+
+     color: brown;
+     font-size: 1.5em;
+}
+
+.contendor-recetas :hover h4{
+     color: crimson;
+}
+
+.sub-anadir {
+     text-align: center;
+
+}
+
+
+.Procedimiento{
+     text-align: justify;
+}
+
+.img-receta{
+     object-fit: cover;
+}
+
+.contenedor-img{
+     max-width: 800px;
+     max-height: 300px;
+}
+
+.img-receta{
+     width: 700px;
+     height: 300px;
+     object-fit: cover;
+}
+
+.contenedor-receta {
+     align-items: center;
+}
+
+.procedimieto {
+     text-align: justify;
+}
+
+@media (max-width: 992px) {
+     .sidebar{
+          display: none;
+     }
+}
+.boton-modal{
+     background-color: brown;
+     color: white;
+}
+.modal-content{
+     background-color: #693a3a;
+     color: white;
+}

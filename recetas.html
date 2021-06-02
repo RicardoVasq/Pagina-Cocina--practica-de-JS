@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+     <link rel="stylesheet" href="./CSS/style.css">
+     <script src="./js/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+     <title>Recetas - Chef Torthu</title>
+     <link rel="icon" href="./IMAGENES/logopeque.ico">
+</head>
+</head>
+<body>
+
+     <!--NAVBAR-->
+     <nav class="navbar navbar-expand-lg navbar-dark contenedor-nav">
+          <div class="container-fluid">
+               <a class="navbar-brand" href="#"><img src="./IMAGENES/logo.png" alt="" width="200"></a>
+               <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+               </button>
+
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                         <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                         <li class="nav-item dropdown"><a class="nav-link dropdwon-toggle"
+                                   href="#"
+                                   id="navbarDropdown"
+                                   role="button" data-bs-toggle="dropdown"
+                                   aria-expanded="false">Recetas</a>
+
+                              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                   <li><a href="recetas.html" class="dropdown-item">Ver recetas</a></li>
+                                   <li><a href="#" class="dropdown-item" data-toggle="modal" data-target="#myModal">Añadir receta</a></li>
+                              </ul>
+                         </li>
+                         <li class="nav-item"><a class="nav-link" href="./contactanos.html">Contactanos</a></li>
+                    </ul>
+               </div>
+          </div>
+     </nav>
+
+     <!--Principal-->
+     <div class="principal-contenedor container">
+          <div class="banner_recetas container">
+               <img class="col-sm-12" src="./IMAGENES/banner_recetas.png" alt="Responsive Images">
+          </div>
+          <div class="row">
+
+               <!--Aside-->
+               <div class="sidebar col-2">
+                    <div class="sidebar-heading"> Menú </div>
+                    <div>
+                         <ul>
+                              <li><a href="#" class="nav-link">Inicio</a></li>
+                              <li>
+                                   <button class=" bton-recetas btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#receta-collapse" aria-expanded="false">
+                                        Recetas
+                                   </button>
+                                   <div class="collapse" id="receta-collapse">
+                                        <ul class="list-unstyled">
+                                             <li class="sub-anadir"><a href="" data-toggle="modal" data-target="#myModal" >Añadir</a></li>
+                                        </ul>
+                                   </div>
+                              </li>
+                              <li><a href="#" class="nav-link">Contactanos</a></li>
+                         </ul>
+                    </div>
+               </div>
+
+               <!--Recetas-->
+               <div class="contendor-recetas  col-10" id="ContenedorRecetas">
+                    <div class="receta row">
+                         <div class="col-12 col-lg-4">
+                              <h4>Arroz Coreano</h4>
+                              <h5>Ingredientes</h5>
+                              <ul>
+                                   <li>400 gramos de arroz</li>
+                                   <li>2 pechugas de pollo</li>
+                                   <li>1 Calabacion</li>
+                                   <li>1 Cebolla</li>
+                                   <li>2 Zanahorias</li>
+                                   <li>1 papa</li>
+                                   <li>2 huevos</li>
+                                   <li>2 dientes de ajos</li>
+                                   <li>aceite</li>
+                                   <li>sal</li>
+                                   <li>Pimienta</li>
+                              </ul>
+                         </div>
+                         <div class="contenedor-img col-12 col-lg-8">
+                              <img class="img-receta" src="./IMAGENES/Bibimbap-Rice-Bowl.jpg"  alt="Responsive images">
+                         </div>
+                         <div class="conteiner procedimiento">
+                              <h5>Pasos a seguir</h5>
+                              <p class="procedimiento">
+                                   El arroz es el alimento más popular en toda Corea al igual que ocurre en la mayoría de los países orientales. Es un alimento que está presente en todo momento en la cocina y es rara la familia que no lo come a diario. Hay muchas maneras y formas de elaborar el arroz aunque en esta ocasión te voy a enseñar a prepararlo al estilo coreano. Es un plato muy fácil y sencillo de hacer y el resultado final merece mucho la pena por su maravilloso sabor. Puedes usarlo bien como acompañamiento de un plato principal o como entrante de otro. Si quieres sorprender gratamente a tus invitados con algo típicamente oriental, no pierdas detalle y toma buena nota de los ingredientes que vas a necesitar para  hacer esta maravillosa receta de arroz al estilo coreano.
+                              </p>
+                         </div>
+                    </div>
+
+                    <div class="receta row">
+                         <div class="col-12 col-lg-4">
+                              <h4>Ramen Coreano</h4>
+                              <h5>Ingredientes</h5>
+                              <ul>
+                                   <li>250gr de bacon</li>
+                                   <li>2 dientes de ajo</li>
+                                   <li>1/2 cuchrada de jengibre</li>
+                                   <li>1 cucharada de salsa roja</li>
+                                   <li>1/2 cucharada de aceite de sesamo</li>
+                                   <li>1/2 cebolla mediana</li>
+                                   <li>225 gr de kimchi</li>
+                                   <li>1 y 1/2 cucharadas de salsa picante coreana</li>
+                                   <li>1 litro de caldo de pollo</li>
+                                   <li>500ml de agua</li>
+                                   <li>400 gr de fideos ramen</li>
+                              </ul>
+                         </div>
+                         <div class="contenedor-img col-12 col-lg-8">
+                              <img class="img-receta" src="./IMAGENES/ramen-coreano-301.jpg"  alt="Responsive images">
+                         </div>
+                         <div class="conteiner-fluid procedimiento">
+                              <h5>Pasos a seguir</h5>
+                              <p class="procedimiento">
+                                   Pon el bacon, el ajo, el jengibre, la salsa de soja y el aceite de sésamo en un bol pequeño, y remuévelo bien. Deja que se marine durante 15 minutos.
+                                   Pasado este tiempo, pon la mezcla en una olla honda a fuego medio-bajo. Deja que se cocine, removiéndolo ocasionalmente, durante 8-10 minutos.
+                                   Agrega la cebolla a la olla y continúa la cocción, removiéndolo ocasionalmente, de 5 a 8 minutos, o hasta que la cebolla se haya ablandado.
+                              </p>
+                         </div>
+                    </div>
+               </div> <!--Cierre de div de table-->
+          </div> <!--Cierre de div row-->
+     </div> <!--Cierre de div principal-->
+
+
+     <!-- The Modal -->
+     <div class="modal" id="myModal">
+          <div class="modal-dialog modal-lg">
+               <div class="modal-content">
+
+               <!-- Modal Header -->
+               <div class="modal-header">
+                    <h4 class="modal-title">Complete los campos</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+               </div>
+
+               <!-- Modal body -->
+               <div class="modal-body">
+                    <p>Titulo de la Receta</p>
+                    <input type="text" class="form-control" id="titulo" />
+                    <br />
+
+                    <p>Foto de tu receta:</p>
+                    <input type="file" class="form-control" id="imagen" multiple />
+                    <br />
+                    <img id="previewImage" width="400px">
+                    <br><br>
+
+                    <p>Ingredientes: </p>
+                    <textarea id="ingredientes" class="form-control" rows="4"></textarea>
+                    <br />
+
+                    <p>Como prepararla:</p>
+                    <textarea id="procedimiento" class="form-control" rows="4"></textarea>
+               </div>
+
+               <!-- Modal footer -->
+               <div class="modal-footer">
+                    <button id="Añadir" class="btn boton-modal" data-dismiss="modal">Añadir Receta</button>
+                    <button type="button" class="btn boton-modal" data-dismiss="modal">Cerrar</button>
+               </div>
+
+               </div>
+          </div>
+     </div>
+
+          <!--Footer-->
+     <footer class="container-fluid contenedor-footer row-sm">
+               <div class="row info-footer">
+               <div class="col-lg-10">
+                    Nuestro equipo colaborativo trabaja arduamente por generar nexos, e intentar hacer visibles elementos que, en la vida cotidiana, no pueden ser vistos por todos. La expedición que emprendimos nuestro inicio no tiene destino ni final, sino que se centra en el constante movimiento, en la observación y el respeto de la temporalidad y la estacionalidad que la tierra nos dicta.
+               </div>
+               <div class="col-lg-2">
+                    <ul>
+                         <li><a class="item-footer" href="#">Facebook</a></li>
+                         <li><a class="item-footer" href="#">Instagram</a></li>
+                         <li><a class="item-footer" href="#">Twitter</a></li>
+                         <li><a class="item-footer" href="#">Youtube</a></li>
+                    </ul>
+               </div>
+               </div>
+               <div class="row col-sm-12 derechos_reservados">
+                    <div> Derechos Reservados por <b>Ricardo Alberto Vasquez Castillo</b></div>
+               </div>
+          </div>
+     </footer>
+
+     <!--Scripts-->
+     <script src="./js/main.js"></script>
+     <script src="./js/popper.min.js"></script>
+     <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
